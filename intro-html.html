@@ -1,0 +1,127 @@
+<!--Esta es una etiqueta de comentario-->
+<!-- shift + alt + a comando para comentario-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Etiquetas meta, estas no las vee el usuario. Ayudan a que el navegador pueda interpretar el documento-->
+    <meta charset="UTF-8"> <!--etiqueta para codificacion -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con navegadores obsoletos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- la escala de mi página web, no confundir con diseño responsivo-->
+    <title>Document</title>
+</head>
+<body>
+    <!--Etiquetas de cabecera-->
+    <h1>Este es un H1</h1>
+    <h2>Esta es un h2</h2>
+    <h3>Esta es un h3</h3>
+    <h4>Esta es un h4</h4>
+    <h5>Esta es un h5</h5>
+    <h6>Esta es un h6</h6>
+    
+    <!-- Etiquetas de párrafo
+     <em> etiqueta de cursiva
+     <u> para subrayar
+     <b> texto en negritas (palabras)
+     <del> para subrayado
+     blockquote bloque de texto como si fuera una cita
+     strong para textos en parrafos -->
+    <p style="color:green">
+        <u>Lorem ipsum dolor sit amet consectetur adipisicing elit.</u> Placeat veniam cupiditate praesentium nobis velit ad dolorem ipsam. <del>Vitae esse consequatur ducimus architecto ullam beatae, atque sint minima expedita recusandae autem.</del>
+    </p>
+    <p>
+        <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam cupiditate praesentium nobis velit ad dolorem ipsam.</em>Vitae esse consequatur ducimus architecto ullam beatae, atque sint minima expedita recusandae autem.
+    </p>
+    <p>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam cupiditate praesentium nobis velit ad dolorem ipsam. <b>Vitae</b> esse consequatur ducimus architecto ullam beatae, atque sint minima expedita recusandae autem.</blockquote>
+    </p>
+<!-- Atributos de las etiquetas
+
+    Los atributos de las etiquetas son una serie de elementtos que se pueden generar a una etiqueta en si para dotarla de más características (No todas las etiquetas tienen atributos). Estos atributos nos permiten agregar elementos como estilos, identificadore, eventos,etc
+
+        - clases: marcan un conjunto de elementos
+        -id: Marcan un elemento en especifico
+        -name: marca con un nombre todas las etiquetas
+-->
+
+    <!-- Etiqueta de imagen (img) 
+    La etiqueta img nos permite agregar una imagen en un un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+
+    Algunos de los atributos de la etiqueta son:
+        -src (source): definir la ubicación del archivo (interno o externo)
+        -width:definir el ancho de la imagen
+        - height define el alto de la imagen
+        - alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+    -->
+
+    <!--Imagen de forma externa  -->
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/HZ7GUQZFUVBZTIKVOZVXCZGMPU.jpg" width="20%">
+
+    <!-- Etiquetas divisorias y separadores
+
+
+    - br: nos sirve para dar una separacion (salto de linea)
+    - hr: para mostrar una linea que sirve como separador
+
+    -->
+
+    <hr style="color: blue"> <!-- Se hace una línea -->
+    <br>
+    <br> 
+
+    <!-- Imagen de forma interna -->
+    <img src="/dog.jpeg">
+
+    <!-- Etiquetas de enlace <a>
+
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+    -->
+    <br>
+
+    <!-- esta referencia te cambia el contenido de esta pagina en su totalidad -->
+    <a href="http://www.google.com">Este texto me lleva a Google</a><br>
+
+    <!-- esta referencia te cambia el contenido a otra ventana -->
+    <a href="http://www.google.com" target="_blank">Este texto me lleva a Google</a>
+
+    <!-- 
+
+    src (source): incrustar un recurso (pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+
+    -->
+    
+    <!-- Etiquetas para listas ordenadas y desordenadas 
+
+    Sirven para crear listas ordenadas (numeros, letras, numeros romanos) y listas desordenadas (no siguen un orden y se usan bullets o figuritas para ordenar los elementos.)
+
+    -->
+
+
+    <!-- Listas ordenadas -->
+    <h3>Listas ordenadas de taquitos</h3>
+    <ol> <!-- ordened list -->
+        <li>taquito al pastor</li><!-- list item -->
+        <li>taquito de chicharron</li>
+        <li>taquito de alambre</li>
+    </ol>
+
+    <!-- Lista desordenada de pendientes -->
+    <h3>Lista desordenadas de pendientes</h3>
+    <ul><!--unordered list-->
+        <li>Lavar los trastes</li>
+        <li>Limpiar el baño</li>
+        <li>Comer</li>
+    </ul>
+
+</body>
+</html>
